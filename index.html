@@ -6,16 +6,14 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
           
-    <title>Oriol Noya - Coach/Acompanyant vital</title>
+    <title>Oriol Noya - Coach/Acompanyant en processos vitals</title>
 
-    <link href="stylesheets/theme.css" rel="stylesheet" />
-    <link href="stylesheets/site.css" rel="stylesheet" />
-
+    <link href="/stylesheets/all.css" rel="stylesheet" />
 
     <link rel="preload" as="font" href="fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
 
-    <script src="javascripts/site.js"></script>
+    <script src="/javascripts/site.js"></script>
   </head>
   <body>
 
@@ -23,11 +21,12 @@
   <div class="loading-animation"></div>
 </div>
 
-<div class="navbar-container bg-primary">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" data-sticky="top">
-    <div class="container">
-      <a class="navbar-brand fade-page" href="/">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119px" height="113px" viewBox="0 0 119 113" version="1.1" class="logo-svg">
+<header>
+  <div class="navbar-container bg-primary" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" data-sticky="top">
+      <div class="container">
+        <a class="navbar-brand fade-page logo" href="/">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119px" height="113px" viewBox="0 0 119 113" version="1.1" class="logo-svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Icon" fill="#ffffff">
             <path d="M14.4915585,79.4908864 C19.0390525,54.6034419 35.9399474,37.085996 64.7880426,27.075178 L64.7880224,27.075185 L50.9531729,21.1347478 L53.30191,15.5375 L71.2483264,23.2433707 L71.2600352,23.2167681 L72.7666785,23.895324 L76.6646389,25.5690386 L76.635758,25.6378643 L76.7514793,25.6899824 L66.4283638,49.1441323 L60.9369197,46.670918 L67.0833607,32.7061854 C40.3068083,41.8961192 24.9306692,57.5378037 20.5607569,79.7638273 C28.0095132,81.4829729 33.5641026,88.1747267 33.5641026,96.1677083 C33.5641026,105.463926 26.0505223,113 16.7820513,113 C7.51358029,113 0,105.463926 0,96.1677083 C0,87.6507766 6.30667807,80.6112582 14.4915585,79.4908864 L14.4915585,79.4908864 Z M74.8737673,84.2006944 L84.2623274,74.6270833 L88.9566075,79.4138889 L79.5680473,88.9875 L88.9566075,98.5611111 L84.2623274,103.347917 L74.8737673,93.7743056 L65.4852071,103.347917 L60.790927,98.5611111 L70.1794872,88.9875 L60.790927,79.4138889 L65.4852071,74.6270833 L74.8737673,84.2006944 Z M16.8994083,10.9861111 L26.2879684,1.4125 L30.9822485,6.19930556 L21.5936884,15.7729167 L30.9822485,25.3465278 L26.2879684,30.1333333 L16.8994083,20.5597222 L7.51084813,30.1333333 L2.81656805,25.3465278 L12.2051282,15.7729167 L2.81656805,6.19930556 L7.51084813,1.4125 L16.8994083,10.9861111 L16.8994083,10.9861111 Z M102.217949,33.6645833 C92.9494777,33.6645833 85.4358974,26.1285097 85.4358974,16.8322917 C85.4358974,7.53607367 92.9494777,0 102.217949,0 C111.48642,0 119,7.53607367 119,16.8322917 C119,26.1285097 111.48642,33.6645833 102.217949,33.6645833 Z M102.217949,27.6049583 C108.14977,27.6049583 112.958462,22.7818712 112.958462,16.8322917 C112.958462,10.8827122 108.14977,6.059625 102.217949,6.059625 C96.2861273,6.059625 91.4774359,10.8827122 91.4774359,16.8322917 C91.4774359,22.7818712 96.2861273,27.6049583 102.217949,27.6049583 Z M16.7820513,106.940375 C22.7138727,106.940375 27.5225641,102.117288 27.5225641,96.1677083 C27.5225641,90.2181288 22.7138727,85.3950417 16.7820513,85.3950417 C10.8502298,85.3950417 6.04153846,90.2181288 6.04153846,96.1677083 C6.04153846,102.117288 10.8502298,106.940375 16.7820513,106.940375 Z" id="Shape"></path>
@@ -35,10 +34,14 @@
     </g>
 </svg>
 
-      </a>
-    </div>
-  </nav>
-</div>
+          <div class="logo-title">
+            <h3>Oriol Noya</h3>
+          </div>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
 
 <section class="bg-primary text-light o-hidden">
   <div class="container">
@@ -46,25 +49,25 @@
       <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
         <h2 class="display-4">Et sents estancat/da o desorientat/da en algun aspecte de la teva vida?</h2>
         <div class="my-4">
-          <p class="lead">T’acompanyo a descobrir-ne els motius i a fer els passos que et permetin no només superar aquesta situació puntual, sinó que a més t'apropin a viure una vida més plena, més significativa i més alineada amb el teu jo profund.
+          <p class="lead">T’acompanyo a descobrir-ne els motius i a fer els passos que et permetin no només superar aquesta situació puntual, sinó que també t'apropin a viure una vida més plena, més significativa i més alineada amb el teu jo profund.
           </p>
         </div>
-        <a href="#" class="btn btn-lg btn-primary-2">Vull saber-ne més</a>
+        <a href="#start" class="btn btn-lg btn-primary-2" data-scroll>Vull saber-ne més</a>
       </div>
       <div class="col-lg-6 text-center" data-aos="fade-left">
-        <img src="images/saas-sketch-1.svg" class="min-vw-60" alt="" />
+        <img src="/images/saas-sketch-1.svg" class="min-vw-60" alt="" />
       </div>
     </div>
   </div>
 </section>
 
-<section>
+<section id="start">
   <div class="container">
     <div class="row justify-content-center text-center mb-6">
       <div class="col-xl-8 col-lg-9">
         <h2 class="display-4 mx-xl-6">L'autoconeixement com a punt de partida</h2>
         <p class="lead">
-          Tot procés de canvi vital implica alhora un procés d'autoconeixement, ja que és dins d'un/a mateix/a on habiten totes les respostes i totes les eines que ens permetran crèixer a nivell personal.
+          Tot procés de canvi vital implica alhora un procés d'autoconeixement, ja que és dins d'un/a mateix/a on habiten totes les respostes i totes les eines que ens permetran créixer a nivell personal.
         <br />
         <br />
         Tal com el concebo jo, un procés d'autoconeixement es compon de les següents 4 fases, que es repeteixen una darrere l'altra de forma cíclica:
@@ -73,22 +76,22 @@
     </div>
     <div class="row text-center">
       <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-        <img src="images/saas-sketch-5.svg" class="mb-4" alt="" />
+        <img src="/images/saas-sketch-5.svg" class="mb-4" alt="" />
         <h5>Respirar</h5>
         <p class="px-xl-4">Implica aturar-se, allunyar-se mentalment de la nostra realitat externa més immediata i centrar-nos simplement en nosaltres i en la nostra respiració.</p>
       </div>
       <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-        <img src="images/saas-sketch-4.svg" class="mb-4" alt="" />
+        <img src="/images/saas-sketch-4.svg" class="mb-4" alt="" />
         <h5>Escoltar</h5>
         <p class="px-xl-4">Implica adonar-se de tot allò que sentim, com ara les nostres emocions, les nostres sensacions corporals o els nostres pensaments inconscients.</p>
       </div>
       <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
-        <img src="images/saas-sketch-3.svg" class="mb-4" alt="" />
+        <img src="/images/saas-sketch-3.svg" class="mb-4" alt="" />
         <h5>Reflexionar</h5>
         <p class="px-xl-4">Implica preguntar-se el motiu pel qual ens sentim així en aquest moment. Què ens poden estar dient aquestes sensacions sobre nosaltres mateixos?</p>
       </div>
       <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
-        <img src="images/saas-sketch-2.svg" class="mb-4" alt="" />
+        <img src="/images/saas-sketch-2.svg" class="mb-4" alt="" />
         <h5>Actuar</h5>
         <p class="px-xl-4">Implica responsabilitzar-se sobre allò que anem descobrint sobre nosaltres mateixos i passar a l'acció, encara que sigui amb petits passos.</p>
       </div>
@@ -100,10 +103,10 @@
     <div class="row align-items-center justify-content-around">
       <div class="col-md-5 pr-xl-4 mb-4 mb-md-0">
         <h3 class="h2 text-primary-2">&ldquo;El meu propòsit vital és contribuïr positivament al benestar psicoespiritual de les persones.&rdquo;</h3>
-        <div class="mb-3">Oriol Noya, Coach/Acompanyant vital</div>
+        <div class="mb-3">Oriol Noya, Coach/Acompanyant en processos vitals</div>
       </div>
       <div class="col-xl-5 col-md-6" data-aos="fade-left">
-        <img src="images/jo.jpg" class="rounded shadow-lg layer-1" alt="" />            
+        <img src="/images/jo.jpg" class="rounded shadow-lg layer-1" alt="" />            
       </div>
     </div>
   </div>
@@ -149,7 +152,7 @@
   <div class="container">
     <div class="row mb-4 justify-content-center">
       <div class="col-auto">
-        <a href="index.html">
+        <a href="#navbar" class="logo">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119px" height="113px" viewBox="0 0 119 113" version="1.1" class="logo-svg">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Icon" fill="#ffffff">
@@ -187,10 +190,15 @@
   </div>
 </footer>
 
-    <script src="javascripts/site-bottom.js"></script>
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/popper.min.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+    <script src="/javascripts/aos.js"></script>
+    <script src="/javascripts/smooth-scroll.polyfills.min.js"></script>
 
     <script>
       AOS.init();
+      var scroll = new SmoothScroll('a[href*="#"]');
     </script>
     
   </body>
